@@ -4,7 +4,9 @@ Image stitching is mainly used to combine multiple images with different angle p
 ### Approach and Procedure:
 The below are the basic procedure used for image stitching purpose:
 The very first step is to find the control points from the sequence of images. Here I have used SURF feature detection and FLANN feature matching to identify the matching control points. Among the obtained matching control points, only four control points are selected such that they cover a very good area across the given image. These control points are used to obtain the homographic matrix to find the points to map the images. Inverse warping is used to blend the sequence of images to one another. The new image stitched is made big enough by providing offset and the final Panorama image is written.
-
+### Sample Results:
+<img src="LR.png"/>
+<img src="RM.png"/>
 
 
 ### Discussion:
