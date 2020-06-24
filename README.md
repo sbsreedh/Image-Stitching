@@ -7,7 +7,7 @@ The very first step is to find the control points from the sequence of images. H
 ### Sample Results:
 <img src="LR.png"/>
 <img src="RM.png"/>
-
+<img src="Final.png"/>
 
 ### Discussion:
 The above shown image shows almost perfect image stitching of the three images provided. Here the selection of key control points plays important role in image stitching processing. While computing H matrix, we need to solve 8 equations for nine unknow variables. Here we are considering H33 to be 1 for simplification of the calculations.
